@@ -1,0 +1,1 @@
+"use strict";var t=document.querySelector(".cost__range");function n(e){var t=e.value;e.style.setProperty("--value",+t/5)}n(t),document.addEventListener("input",function(e){n(t)});
