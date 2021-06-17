@@ -5,13 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="https://kit.fontawesome.com/7ae5092e20.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/7ae5092e20.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@300;700&family=Open+Sans:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="preload" href="common.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="common.css"></noscript>
-    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/static/images/favicon.ico">
     <title>DLK</title>
 </head>
@@ -210,7 +208,8 @@
                 <div class="contacts__wrapper">
                     <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                 </div>
-                <iframe title="Map of where we are" class="contacts__map" data-iframely-url="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2651.820908703631!2d-122.420958355798!3d37.77681338703293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809969fa0579%3A0xa828d2bfd4ce59fb!2s240%20Van%20Ness%20Ave%2C%20San%20Francisco%2C%20CA%2094102%2C%20USA!5e0!3m2!1sen!2sru!4v1617131216820!5m2!1sen!2sru" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe title="Map of where we are" class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2651.820908703631!2d-122.420958355798!3d37.77681338703293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809969fa0579%3A0xa828d2bfd4ce59fb!2s240%20Van%20Ness%20Ave%2C%20San%20Francisco%2C%20CA%2094102%2C%20USA!5e0!3m2!1sen!2sru!4v1617131216820!5m2!1sen!2sru"
+                    allowfullscreen="" loading="lazy"></iframe>
             </article>
         </section>
     </main>
@@ -408,7 +407,7 @@
     </form>
     <button class="modal-window__btn_cross" type="button" aria-label="popup close"><img src="/static/images/cross.svg" alt="" width="15" height="15"></button>
 </div>
-    <script async="" src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+
     <script defer src="scripts.js"></script>
     <script defer src="mobile-menu.js"></script>
     <script defer src="star-rating.js"></script>
